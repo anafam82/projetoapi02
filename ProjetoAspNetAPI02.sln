@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services Layer", "1 - Services Layer", "{995258F1-673D-4D6C-B2D6-1D8D0E514D95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Repository Layer", "2 - Repository Layer", "{13DBFCF1-ACD9-4273-9E29-A880FD040C20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoAspNetAPI02.Services", "ProjetoAspNetAPI02.Services\ProjetoAspNetAPI02.Services.csproj", "{F6FBCAFE-E728-4DE8-95D9-1171D035E274}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoAspNetAPI02.Data", "ProjetoAspNetAPI02.Data\ProjetoAspNetAPI02.Data.csproj", "{7ED3BAB9-5392-41CD-B6E0-B32A6B5E931F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Messages Layer", "3 - Messages Layer", "{08E7D9B9-2A9A-49CE-A2C8-B6476D3C3928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoAspNetAPI02.Messages", "ProjetoAspNetAPI02.Messages\ProjetoAspNetAPI02.Messages.csproj", "{89087F86-ED57-42A2-9EC0-6EFE90EBCA73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6FBCAFE-E728-4DE8-95D9-1171D035E274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FBCAFE-E728-4DE8-95D9-1171D035E274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FBCAFE-E728-4DE8-95D9-1171D035E274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FBCAFE-E728-4DE8-95D9-1171D035E274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED3BAB9-5392-41CD-B6E0-B32A6B5E931F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED3BAB9-5392-41CD-B6E0-B32A6B5E931F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED3BAB9-5392-41CD-B6E0-B32A6B5E931F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED3BAB9-5392-41CD-B6E0-B32A6B5E931F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89087F86-ED57-42A2-9EC0-6EFE90EBCA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89087F86-ED57-42A2-9EC0-6EFE90EBCA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89087F86-ED57-42A2-9EC0-6EFE90EBCA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89087F86-ED57-42A2-9EC0-6EFE90EBCA73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6FBCAFE-E728-4DE8-95D9-1171D035E274} = {995258F1-673D-4D6C-B2D6-1D8D0E514D95}
+		{7ED3BAB9-5392-41CD-B6E0-B32A6B5E931F} = {13DBFCF1-ACD9-4273-9E29-A880FD040C20}
+		{89087F86-ED57-42A2-9EC0-6EFE90EBCA73} = {08E7D9B9-2A9A-49CE-A2C8-B6476D3C3928}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48FEA401-6304-4DCD-B1F8-37BA0DDA5DC6}
+	EndGlobalSection
+EndGlobal
